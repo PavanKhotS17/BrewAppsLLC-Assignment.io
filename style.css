@@ -1,0 +1,85 @@
+a:hover{ text-decoration: none; }
+a{text-decoration: none;}
+
+li{ list-style: none;}
+
+.header{
+	padding-top: 30px;
+	padding-left: 40px;
+	margin-left: 0;
+	float: left;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.header-buttons {
+	width: 180px;
+	border: 1px solid gray;
+	border-radius: 100px;
+	padding: 8px 28px;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.header-buttons:hover{
+	color: white;
+	background-color: black;
+	text-decoration: none;
+}
+
+.categories{
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+	margin-left: 0;
+	float: left;
+	width: 90%;
+	height: auto;
+	position: relative;
+}
+
+.example{
+	padding-top: 20px;
+	padding-left: 50px;
+	margin-left: auto;
+	height: auto;
+}
+
+.card{
+	width: 430px;
+	height: auto;
+}
+
+.card-body{
+	background-color: black;
+}
+
+.card-title{
+	color: white;
+	padding-bottom: 10px;
+	margin-left: 10px;
+}
+
+.card-button{
+	border: 1px solid white;
+	border-radius: 100px;
+	padding: 2px 15px;
+    outline: none;
+	background-color: gray;
+	color: white;
+	font-size: 1rem;
+	font-weight:400;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.card-button:hover{
+	color: black;
+	height: auto;
+	background-color: white;
+	text-decoration: none;
+}
+
